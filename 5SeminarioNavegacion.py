@@ -63,7 +63,6 @@ class PythonOrgBusqueda(unittest.TestCase):
         elem = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/h3')))
         self.assertEquals(elem.text,'Perfil de Usuario')
 
-
     def tearDown(self):
         self.driver.close()
 
