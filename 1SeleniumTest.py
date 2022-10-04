@@ -1,3 +1,10 @@
+"""
+------------------------------------------
+Exploracion de selenium para visitar
+una pagina y realizar una busqueda.
+
+------------------------------------------
+"""
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By

@@ -1,3 +1,12 @@
+"""
+------------------------------------------
+UnitTesting con Selenium para Seminario
+Unicamente 1 prueba
+-Prueba de Login
+
+------------------------------------------
+"""
+
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

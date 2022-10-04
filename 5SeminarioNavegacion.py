@@ -1,3 +1,15 @@
+"""
+------------------------------------------
+Exploracion de selenium para realizar vistar
+Multiples pruebas en el mismo archivo
+-Prueba Login
+-Prueba Logout
+-Prueba Navegacion Perfil
+-Prueba Navegacion CRUD
+-Prueba Navegacion Dashboard
+------------------------------------------
+"""
+
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
